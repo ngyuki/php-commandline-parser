@@ -1,0 +1,21 @@
+{
+    "name": "ngyuki/php-commandline-parser",
+    "description": "php commandline parser",
+    "type": "library",
+    "keywords": [ "utility" ],
+    "homepage": "https://github.com/ngyuki/php-commandline-parser",
+    "license": "MIT",
+    "authors": [
+        { "name": "ngyuki", "email": "ngyuki.ts@gmail.com" }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ngyuki\\CommandLineParser\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+    }
+}
